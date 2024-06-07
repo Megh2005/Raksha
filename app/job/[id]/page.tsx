@@ -40,7 +40,7 @@ const page = async ({ params }: DynamicProps) => {
                   <ul>
                     <li>
                       <div>
-                        <p>Employment Type:</p>
+                        <p>Service Type :</p>
                         <span className="font-medium">
                           {job.employmentType}
                         </span>
@@ -48,25 +48,25 @@ const page = async ({ params }: DynamicProps) => {
                     </li>
                     <li className="mt-4">
                       <div>
-                        <p>Company:</p>
+                        <p>Recruiter :</p>
                         <span className="font-medium">{job.author}</span>
                       </div>
                     </li>
                     <li className="mt-4">
                       <div>
-                        <p>Location:</p>
+                        <p>Location :</p>
                         <span className="font-medium">{job.location}</span>
                       </div>
                     </li>
                     <li className="mt-4">
                       <div>
-                        <p>Salary:</p>
+                        <p>Salary :</p>
                         <span className="font-medium">{job.salary} INR Per Month</span>
                       </div>
                     </li>
                     <li className="mt-4">
                       <div>
-                        <p>Posted</p>
+                        <p>Posted :</p>
                         <span className="font-medium">
                           {formattedPostedDate}
                         </span>
@@ -79,14 +79,8 @@ const page = async ({ params }: DynamicProps) => {
           </div>
 
           <div className="lg:col-span-8 md:col-span-6">
-            <h5 className="text-lg font-semibold">Job Description:</h5>
+            <h5 className="text-lg font-bold underline">Job Description</h5>
             <p className="mt-4 text-slate-400">
-              {job.description}
-              {job.description}
-              {job.description}
-              {job.description}
-              {job.description}
-              {job.description}
               {job.description}
             </p>
 

@@ -10,7 +10,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Raksha-Job-Portal",
+  title: "Raksha",
   description: "Women Empowerment & Job Portal",
 };
 
