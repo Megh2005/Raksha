@@ -14,9 +14,9 @@ model JobPosting{
   id String @id @default(uuid())
   name String
   description String
-  salary Float @default(0)
+  salary Float? @default(0)
   location String
-  company String
+  author String
   img String?
   employmentType String?
   createdAt DateTime @default(now())

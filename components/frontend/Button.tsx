@@ -8,12 +8,14 @@ interface ButtonProps {
   onClick?: () => void;
   outline?: boolean;
   fullWidth?: boolean;
+  marginTop?: boolean;
 }
 const Button: React.FC<ButtonProps> = ({
   children,
   type,
   onClick,
   fullWidth,
+  marginTop
 }) => {
   const { pending } = useFormStatus();
 
@@ -24,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       className={clsx(
         `bg-purple-600 rounded-md text-white h-full px-4 py-2 transition duration-300 hover:bg-purple-600/70 font-semibold`,
-        fullWidth && "w-full"
+        fullWidth && "w-full", marginTop && "mt-6"
       )}
     >
       {children}
