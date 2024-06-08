@@ -1,11 +1,11 @@
-import { create } from 'zustand';
 export interface jobType {
     id: string;
     name: string;
-    img: string | null;
+    img: string | null
     author: string;
-    salary: string | null;
+    salary: number | null
     location: string;
-    employmentType: string | null;
-    description: Date;
+    description: string;
+    employmentType: string | null
+    createdAt: Date
 }

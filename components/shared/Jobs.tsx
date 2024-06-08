@@ -5,8 +5,8 @@ import JobCard from "./JobCard";
 import Button from "../frontend/Button";
 const Jobs = () => {
   const { filteredJobs } = useJobStore();
-  const [visibleJobs, setvisibleJobs] = useState(8);
-  const jobsIncrement = 4;
+  const [visibleJobs, setvisibleJobs] = useState(6);
+  const jobsIncrement = 3;
 
   const handleShowMore = () => {
     setvisibleJobs((prev) => prev + jobsIncrement);
