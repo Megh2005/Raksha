@@ -123,6 +123,7 @@ git pull-request [username] [branch]
 ```
 
 ## :computer: Tech Stack
+
 [![Next](https://skillicons.dev/icons?i=next)](https://skillicons.dev) &nbsp;
 [![Typescript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) &nbsp;
 [![Prisma](https://skillicons.dev/icons?i=prisma)](https://skillicons.dev) &nbsp;
@@ -133,4 +134,11 @@ git pull-request [username] [branch]
 
 ## :camera: Project Demo ScreenShot
 
-**_Please don't forget to visit my GitHub repository and please hit a_ :star: _in the GitHub repository_**
+![Screenshot from 2024-06-08 21-38-02](https://github.com/Megh2005/Jobpedia/assets/147889330/066840d5-3687-4c5d-ae86-e6113d11d5e7)
+![Screenshot from 2024-06-08 21-38-47](https://github.com/Megh2005/Jobpedia/assets/147889330/1b3e4a05-f0f7-47d7-92f9-52595707b4ee)
+![Screenshot from 2024-06-08 21-38-23](https://github.com/Megh2005/Jobpedia/assets/147889330/5cd27a61-0d35-47fa-b790-bf181206116e)
+![Screenshot from 2024-06-08 21-41-28](https://github.com/Megh2005/Jobpedia/assets/147889330/0d121bcf-6961-4ce4-b280-542ba163146d)
+![Screenshot from 2024-06-08 21-42-15](https://github.com/Megh2005/Jobpedia/assets/147889330/9c3b3bc3-ae41-408c-93e0-085d91ce6e77)
+![Screenshot from 2024-06-08 21-39-03](https://github.com/Megh2005/Jobpedia/assets/147889330/c36774f8-cf86-4eb0-b739-043af9b00d77)
+
+## _Please don't forget to visit my GitHub repository and please hit a_ :star: _in the GitHub repository_**
