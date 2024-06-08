@@ -97,7 +97,7 @@ npm run dev
 > Project URL
 
 ```sh
-http://localhost:5173
+http://localhost:3000
 ```
 
 ## :inbox_tray: Contribution & Issues
