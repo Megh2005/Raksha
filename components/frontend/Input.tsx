@@ -6,6 +6,7 @@ import { ChangeEvent } from "react";
 interface InputProps {
   label?: string;
   id: string;
+  name?: string;
   type?: string;
   register?: UseFormRegisterReturn;
   errors?: FieldErrors;
@@ -21,6 +22,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({
   label,
   id,
+  name,
   type,
   register,
   errors,
@@ -69,7 +71,7 @@ const Input: React.FC<InputProps> = ({
       id={id}
       type={type}
       autoComplete={id}
-      name={id}
+      name={name}
       value={value}
       disabled={disabled}
       placeholder={placeHolder}
@@ -107,7 +109,7 @@ const Input: React.FC<InputProps> = ({
           htmlFor={id}
           className="block text-sm font-medium leading-6 text-gray-700 mb-2"
         >
-          {label}:
+          {label}
         </label>
       )}
       <div>
