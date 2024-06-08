@@ -24,7 +24,6 @@ const JobCard = ({ job }: JobsCardProps) => {
           </div>
           <h2>{job.salary} INR Per Month</h2>
         </div>
-
         <div className="mt-3 text-xl">
           <h3>{job.name}</h3>
           <p>{job.location}</p>
