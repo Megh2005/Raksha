@@ -8,7 +8,8 @@
 - **Both recruiters and employess has an accessibility of contacting us.**
 - **24/7 support availavle at `Contact` section.**
 - **Filter jobs by your choice through the `Search Job` section.**
-- **We are working on some `Encryption` features.**
+> [!TIP]
+> **We are working on some `Encryption` features. You can help us in that.**
 
 ## :closed_lock_with_key: Example Environment Variable
 
@@ -58,8 +59,8 @@ EDGE_STORE_SECRET_KEY =
   }
 }
 ```
-## :warning: Statutary Warning
-**Use your API keys securely. Do not share them or embed them in code the public can view. Just add it to a environment variavle in a `.env` file and don't forget to add a `.gitignore` to that env file. While deploying it at vercel or netlify the just go to the set environment variables  tab and set your env variable name and value.**
+> [!CAUTION]
+> **Use your API keys securely. Do not share them or embed them in code the public can view. Just add it to a environment variavle in a `.env` file and don't forget to add a `.gitignore` to that env file. While deploying it at vercel or netlify the just go to the set environment variables  tab and set your env variable name and value.**
 
 ## :floppy_disk: Installation
 
