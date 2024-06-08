@@ -13,8 +13,10 @@ const Jobs = () => {
   };
   return (
     <div id="jobs" className="py-10 w-full ">
-      <div className="w-full text-center mb-10 text-4xl font-extrabold capitalize text-purple-500">
-        <h2>Available Jobs</h2>
+      <div className="w-full text-center mb-10 text-4xl font-extrabold capitalize">
+        <h2>
+          Available <span className="text-purple-700 font-extrabold">Jobs</span>
+        </h2>
       </div>
 
       {filteredJobs.length < 1 ? (
