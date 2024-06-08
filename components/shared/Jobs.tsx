@@ -25,7 +25,7 @@ const Jobs = () => {
           <span className="text-sm capitalize">Check back later</span>
         </div>
       ) : (
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 w-[90%] mx-auto max-w-[1400px]">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 w-[90%] mx-auto max-w-[1400px]">
           {filteredJobs.slice(0, visibleJobs).map((job) => (
             <JobCard key={job.id} job={job} />
           ))}

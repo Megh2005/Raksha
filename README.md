@@ -131,11 +131,6 @@ git pull-request [username] [branch]
 [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) &nbsp;
 [![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev) &nbsp;
 
-## :link: Important Links
-- **Vercel** : https://sampark-murex.vercel.app/
-- **GitHub** : https://github.com/Megh2005/Raksha
-- **YouTube Video** : https://youtu.be/tiqh8FR8Tcw
-
 ## :camera: Project Demo ScreenShot
 
 **_Please don't forget to visit my GitHub repository and please hit a_ :star: _in the GitHub repository_**
